@@ -1,0 +1,134 @@
+#heading{
+    background: #42cef4;
+}
+#logo{
+    display: block;
+    position:relative;
+    left: 44%;
+    width: 15%;
+    max-width: 150px;
+}
+    
+
+#top_row {
+    list-style-type: none;
+    display: block;
+}
+
+#top_row li{
+    display: block;
+    position:relative;
+    left: 5%;
+    float: left;
+    size: 8pt;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    background: #f4bf42;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#top_row li a{
+    display: block;
+    text-align: center;
+}
+
+#banner_ad{
+    position: relative;
+    left: 5%;
+    width:90%;
+    max-height: 200px;
+    max-width: 892px;
+    margin:5px;
+}
+
+#menu_items{
+    list-style-type: none;
+}
+
+.main_pane{
+    display:block;
+    width:100%;
+}
+#open_orders{
+    background: pink;
+    display:inline-block;
+
+    margin:5px;
+    margin-left:10%;
+}
+#order_items{
+    background: pink;
+    display:inline-block;
+
+    margin:5px;
+    margin-left:10%;
+}
+
+.menu_display{
+    margin-left: 10%;
+    background: pink;
+    display:inline-block;
+    position: relative;
+}
+
+.order_preview{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    background: pink;
+    top:10;
+    padding: 5px;
+}
+
+#menu_control_buttons{
+    margin-left: 10%;
+    padding: 5px;
+}
+
+#tables{
+    background: dimgrey;
+    width:210px;
+    margin-right: 10%;
+    margin-left:40%;
+    display:inline-block;
+}
+#tables two, four, six{
+    display:block;
+}
+#tables a:link, a:visited{
+    text-decoration: none;
+}
+
+
+
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 2px;
+    text-decoration: none;
+    color: initial;
+}
+
+#new_order, #close_order{
+    background: cyan;
+    size: 14pt;
+}
+
+
+    
+#footer{
+    background: #f4bf42;
+    position: relative;
+    text-align: center;
+    width:100%;
+    padding:5px;
+    margin: 5px;
+    bottom: 5px;
+}

@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>FUUD - Menu</title>
+</head>
+
+
+<body>
+<div id=heading>
+<img id=logo src="img/logo.png" alt="Welcome to Fuud Logo">
+    <ul id=top_row>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Kitchen</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Management</a></li>
+    </ul>
+<br/>
+</div>
+<!-- End of the page header -->
+
+<div id=banner_ad>
+<img id=banner_ad src="img/banner.jpg" alt="Full-width banner ad?">  
+</div>
+
+<p>This is the menu page!<br/>
+Now serving Table <?php echo $table?>.</p>
+<section>
+<div class=menu_display>
+<!--<ul id=menu_items>
+    <li>Menu item goes here!<input type="button" onclick="#" value="-1">
+        <input type="button" onclick="#" value="+1">
+        <input type="button" onclick="#" value="Custom"></li>
+    <li>Menu item goes here!<input type="button" onclick="#" value="-1">
+        <input type="button" onclick="#" value="+1">
+        <input type="button" onclick="#" value="Custom"></li>
+    <li>Menu item goes here!<input type="button" onclick="#" value="-1">
+        <input type="button" onclick="#" value="+1">
+        <input type="button" onclick="#" value="Custom"></li>
+</ul>
+-->
+
+</div>
+
+
+<div class=order_preview>
+    <!--Preview pane for in-progress orders-->
+    <p> Order preview pane - fill this Div with line items as they're selected from the menu.
+    </br>
+    Dummy text<br/>
+    Dummy text alskjhaskldjfhkjldf<br/>
+    Dummy text asdfkla;kdfjlasdsdfgfsgsfdla<br/>
+    Dummy text a;lkdfasfd;lafdkjal<br/>
+    Dummy text<br/>
+    Dummy text asklfdjldfkajsdfsfgsfgsfdlad<br/>
+    Dummy text aslkdflaksdfjlsdfdl<br/>
+    </p>
+</div>   
+
+</section>
+
+<br/>
+<div id=menu_control_buttons>
+    <input id=new_order type="button" onclick="#" value="Create new order!">
+    <input id=close_order type="button" onclick="#" value="Finalise Order!">
+</div>
+
+<!-- Footer bar -->
+<div>
+<footer id=footer>
+Don't forget to offer drinks and sides!
+
+</footer>
+</div>
+</body>
+</html>

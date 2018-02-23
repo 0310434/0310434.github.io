@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Welcome to FUUD</title>
+</head>
+
+
+<body>
+<div id=heading>
+<img id=logo src="img/logo.png" alt="Welcome to Fuud Logo">
+    <ul id=top_row>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Kitchen</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Management</a></li>
+    </ul>
+<br/>
+</div>
+<!-- End of the page header -->
+
+<div>
+<img id=banner_ad src="img/banner.jpg" alt="Full-width banner ad">  
+ </div>
+
+ <!-- This section shows tables (to make new orders) and a list of open orders (to edit/close)-->
+<section class=main_pane>
+<p>Welcome to Food, where the food is ok.</p><br/>
+<!--
+<a href="menu.html" class="button">Menu Items</a>
+<a href="order_details.html" class="button">Order Details</a>-->
+<div id=open_orders> <!--Shows query of open orders-->
+
+
+</div>
+
+
+<!--Shows graphic of tables to choose for new order-->
+<!--Need to add details to each link to identify the table for the order-->
+<div id=tables>    
+    <div id=two>
+        <a href="menu.html?table=1">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">1</text>
+            </svg>
+        </a>
+        <a href="menu.html?table=2">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">2</text>
+            </svg>
+        </a></div>
+    <div id=four>
+        <a href="menu.html?table=3">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">3</text>
+            </svg>
+        </a>
+        <a href="menu.html?table=4">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">4</text>
+            </svg>
+        </a></div>
+    <div id=six>
+        <a href="menu.html?table=5">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">5</text>
+            </svg>
+        </a>
+        <a href="menu.html?table=6">
+            <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="darkgrey" stroke-width="3" fill="grey"/>
+            <text fill="white" font-size="36" font-family="Verdana" x="40" y="60">6</text>
+            </svg>
+        </a></div>
+    </div>
+
+</section>
+
+<div id=menu_control_buttons>
+    <a href="order_details.html" class="button">Order Details</a>
+</div>
+<!-- Footer bar, will always stay at the bottom of the page -->
+
+<footer id=footer><!--
+<footer id=footer>-->
+Rate our service: <a href="#"> * </a><a href="#"> * </a><a href="#"> * </a><a href="#"> * </a><a href="#"> * </a>
+</footer>
+
+</body>
+</html>
