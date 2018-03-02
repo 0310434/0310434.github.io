@@ -4,29 +4,22 @@ main {
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    height: 400px;
+    height: 500px;
     background-color: aliceblue;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+
 }
-.container{
-    background-color: gold;
-    height: 100px;
-    width: 100px;
-}
+
 #cont1{
      background-color: gold;
-    order:2;
+
 }
 
 #cont2{
     background-color: silver;
-    order:3;
+
 }
 
 #cont3{
     background-color: saddlebrown;
-    order:1;
+
 }
