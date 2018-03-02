@@ -1,0 +1,13 @@
+body {
+    background-color: cornflowerblue; }
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    background-color: aliceblue; }
+.container{
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+}
